@@ -1,0 +1,361 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Sep 07 14:21:58 2021
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files (x86)\Java\jre1.8.0_291
+# makefile (from 'Makefile', line 37)
+OBJ = $(patsubst $(SRC_FOLDER)%.cpp, $(OBJ_FOLDER)%.o, $(SRC))
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 36)
+SRC = $(wildcard $(SRC_FOLDER)*.cpp)
+# environment
+USERPROFILE = C:\Users\Eric
+# environment
+LOCALAPPDATA = C:\Users\Eric\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-6e12db7c-cd35-470f-915e-3264db023e41-sock
+# environment
+VSCODE_CWD = C:\Users\Eric\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9408_BDUUCPIBYJFMQBUX
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Eric\AppData\Roaming\Code\CachedData\e7d7e9a9348e6a8cc8c03f877d39cb72e5dfb1ff
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\Eric\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Eric\OneDrive
+# makefile
+CURDIR := c:/Users/Eric/Desktop/tp
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 9408
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 30)
+OBJ_FOLDER = ./obj/
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+ANDROID_HOME = C:\Android\android-sdk
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+CLASSPATH = .;
+# environment
+HOMEPATH = \Users\Eric
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 31)
+SRC_FOLDER = ./src/
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Kotlin\kotlinc\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\emulator;C:\Android\android-sdk\tools;C:\Android\android-sdk\emulator\bin;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Eric\AppData\Local\Microsoft\WindowsApps;C:\Users\Eric\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Eric\AppData\Roaming\Composer\vendor\bin;C:\MinGW\bin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files (x86)\Php;C:\Users\Eric\AppData\Local\.meteor;C:\Users\Eric\AppData\Roaming\npm
+# environment
+COMPUTERNAME = DESKTOP-9HAC9K6
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132683279323657928
+# makefile (from 'Makefile', line 34)
+MAIN = Main
+# environment
+LOGONSERVER = \\DESKTOP-9HAC9K6
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Eric
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-9HAC9K6
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 29)
+BIN_FOLDER = ./bin/
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-9HAC9K6
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Eric\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\Eric\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\752d885ad831aef5a40cc883c704cb5e-1.60.0-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 35)
+TARGET = run.out
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 24)
+CXXFLAGS = -std=c++11 -g -Wall
+# makefile (from 'Makefile', line 28)
+INCLUDE_FOLDER = ./include/
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 2a07
+# makefile (from 'Makefile', line 23)
+CC = g++
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=13/149=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (key c:/Users/Eric/Desktop/tp/src, mtime 1631028712): 7 files, no impossibilities.
+# . (key c:/Users/Eric/Desktop/tp, mtime 1631024869): 15 files, no impossibilities.
+# ./src (key c:/Users/Eric/Desktop/tp/src, mtime 1631028712): 7 files, no impossibilities.
+
+# 29 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.cpp
+#  recipe to execute (from 'Makefile', line 40):
+	$(CC) $(CXXFLAGS) -c $< -o $@ -I$(INCLUDE_FOLDER)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+src/ArvoreBinaria.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-07 13:41:57
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/Main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-07 01:33:07
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/tipo_item_arvore.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/ListaEncadeada.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 46):
+	@rm -rf $(OBJ_FOLDER)* $(BIN_FOLDER)*
+
+obj/ArvoreBinaria.o: src/ArvoreBinaria.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ArvoreBinaria'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/ArvoreBinaria.o
+# automatic
+# * := ArvoreBinaria
+# automatic
+# < := src/ArvoreBinaria.cpp
+# automatic
+# + := src/ArvoreBinaria.cpp
+# automatic
+# % := 
+# automatic
+# ^ := src/ArvoreBinaria.cpp
+# automatic
+# ? := src/ArvoreBinaria.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/16=12%
+#  recipe to execute (from 'Makefile', line 40):
+	$(CC) $(CXXFLAGS) -c $< -o $@ -I$(INCLUDE_FOLDER)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: obj/ArvoreBinaria.o obj/ListaEncadeada.o obj/Main.o obj/tipo_item_arvore.o obj/tipo_item_lista.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 43):
+	$(CC) $(CXXFLAGS) -o $(BIN_FOLDER)$(TARGET) $(OBJ)
+
+# Not a target:
+obj/tipo_item_lista.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/30=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 34 / storage = 376 B / avg = 11 B
+# current buf: size = 8174 B / used = 376 B / count = 34 / avg = 11 B
+
+# strcache performance: lookups = 45 / hit rate = 24%
+# hash-table stats:
+# Load=34/8192=0%, Rehash=0, Collisions=0/45=0%
+# Finished Make data base on Tue Sep 07 14:21:58 2021
+
+ 

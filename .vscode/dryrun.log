@@ -1,0 +1,10 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/Eric/Desktop/tp'
+g++ -std=c++11 -g -Wall -c src/ArvoreBinaria.cpp -o obj/ArvoreBinaria.o -I./include/
+g++ -std=c++11 -g -Wall -c src/ListaEncadeada.cpp -o obj/ListaEncadeada.o -I./include/
+g++ -std=c++11 -g -Wall -c src/Main.cpp -o obj/Main.o -I./include/
+g++ -std=c++11 -g -Wall -c src/tipo_item_arvore.cpp -o obj/tipo_item_arvore.o -I./include/
+g++ -std=c++11 -g -Wall -c src/tipo_item_lista.cpp -o obj/tipo_item_lista.o -I./include/
+g++ -std=c++11 -g -Wall -o ./bin/run.out  ./obj/ArvoreBinaria.o  ./obj/ListaEncadeada.o  ./obj/Main.o  ./obj/tipo_item_arvore.o  ./obj/tipo_item_lista.o
+make: Leaving directory 'c:/Users/Eric/Desktop/tp'
+ 
