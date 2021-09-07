@@ -1,60 +1,62 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "ArvoreBinaria.h"
+
+// Header file imports
+#include "BinaryTree.h"
 
 using namespace std;
 
-int main(int argc, char const *argv[])
-{
-
-    string arq = argv[1];
+int main(int argc, char const *argv[]) {
+    string textFile = argv[1];
     fstream file;
 
-    file.open(arq);
+    file.open(textFile);
 
-    if (!file.is_open())
-    {
-        cerr << "O arquivo nao abriu!\n";
+    if (!file.is_open()) {
+        cerr << "Error while opening file\n";
         return -1;
     }
 
-    ArvoreBinaria Arvore;
+    BinaryTree Tree;
 
-    int n_dados, bin;
-    string nome_user;
+    int data, bin;
+    string name;
 
-    file >> n_dados;
-    for (int i = 0; i < n_dados; i++)
-    {
-        file >> nome_user;
+    file >> data;
+
+    for (int i = 0; i < data; i++) {
+        file >> name;
         file >> bin;
 
-        TipoItem novo;
-        // O(1)
-        novo.SetChave(nome_user);
+        TreeItemType newItem;
 
-        // O(log n)
-        Arvore.insere(novo, bin);
+        // Complexity: O(1)
+        newItem.SetKey(name);
+
+        // Complexity: O(log n)
+        Tree.insert(newItem, bin);
     }
     
-    // O(n)
-    Arvore.caminha(2);
+    // Complexity: O(n)
+    Tree.go(2);
     printf("\n");
 
-    TipoNo *No;
-    while (file >> nome_user)
-    {
-        // O(log n) caso médio | O(1) melhor caso | O(n) pior caso (arvore degenerada)
-        No = Arvore.pesquisa(nome_user);
-        printf("%s %d\n", nome_user.c_str(), No->lista_bin.somatorio()); //somatorio() => O(n) 
+    NodeType *Node;
 
-        // O(log n) caso médio | O(n) pior caso
-        Arvore.remove(nome_user);
+    while (file >> name) {
+        // Complexity: O(log n) average case | O(1) best case | O(n) worst case (Tree degenerated)
+        Node = Tree.search(name);
+
+        // Complexity: O(n) 
+        printf("%s %d\n", name.c_str(), Node -> listBin.sum()); 
+
+        // Complexity: O(log n) average case | O(n) worst case
+        Tree.remove(name);
     }
 
-    // O(n)
-    Arvore.caminha(2);
+    // Complexity: O(n)
+    Tree.go(2);
 
     file.close();
 
