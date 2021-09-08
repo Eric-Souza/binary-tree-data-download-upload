@@ -1,5 +1,5 @@
 # Binary Tree Data Download and Upload
-Receives a text file as input by a makefile command and treats its data following specified instructions, using computer science, data structures and binary tree algorithms and concepts. At last, the system prints the resulting data.
+Receives a text file as input by a makefile command and treats its data following specified instructions, using data structures and binary tree algorithms and concepts. At last, the system prints the resulting data.
  
 * Compile the code by running the command below on the Makefile directory:  
 
